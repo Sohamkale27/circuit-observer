@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				quantum: {
+					running: 'hsl(var(--quantum-running))',
+					completed: 'hsl(var(--quantum-completed))',
+					queued: 'hsl(var(--quantum-queued))',
+					failed: 'hsl(var(--quantum-failed))',
+					cancelled: 'hsl(var(--quantum-cancelled))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
