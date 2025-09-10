@@ -52,12 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				quantum: {
-					running: 'hsl(var(--quantum-running))',
-					completed: 'hsl(var(--quantum-completed))',
-					queued: 'hsl(var(--quantum-queued))',
-					failed: 'hsl(var(--quantum-failed))',
-					cancelled: 'hsl(var(--quantum-cancelled))'
+				learning: {
+					completed: 'hsl(var(--learning-completed))',
+					progress: 'hsl(var(--learning-in-progress))',
+					locked: 'hsl(var(--learning-locked))',
+					new: 'hsl(var(--learning-new))',
+					mastered: 'hsl(var(--learning-mastered))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

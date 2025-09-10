@@ -8,48 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Quantum-inspired dark theme */
-    --background: 220 27% 6%;
-    --foreground: 210 40% 98%;
+    /* Education-friendly light theme */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
 
-    --card: 220 25% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 220 25% 8%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 195 100% 55%;
-    --primary-foreground: 220 27% 6%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 260 50% 15%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 220 20% 12%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 290 80% 65%;
-    --accent-foreground: 220 27% 6%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 75% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 220 20% 15%;
-    --input: 220 20% 15%;
-    --ring: 195 100% 55%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
 
-    /* Quantum status colors */
-    --quantum-running: 195 100% 55%;
-    --quantum-completed: 145 70% 50%;
-    --quantum-queued: 45 90% 55%;
-    --quantum-failed: 0 75% 60%;
-    --quantum-cancelled: 220 15% 50%;
+    /* Learning status colors */
+    --learning-completed: 142 76% 36%;
+    --learning-in-progress: 217 91% 60%;
+    --learning-locked: 215 16% 47%;
+    --learning-new: 25 95% 53%;
+    --learning-mastered: 271 81% 56%;
 
-    /* Quantum gradients */
-    --gradient-quantum: linear-gradient(135deg, hsl(195 100% 55%), hsl(290 80% 65%));
-    --gradient-circuit: linear-gradient(90deg, hsl(195 100% 55% / 0.1), hsl(290 80% 65% / 0.1));
+    /* Education gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(142 76% 36%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(158 64% 52%));
+    --gradient-achievement: linear-gradient(135deg, hsl(25 95% 53%), hsl(45 93% 47%));
     
     /* Animations */
-    --transition-quantum: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
